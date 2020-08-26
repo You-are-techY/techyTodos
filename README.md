@@ -1,6 +1,6 @@
 You are techY Code Challenge
 ======
-## Jr. Full Stack Javascript Developer
+### Jr. Full Stack Javascript Developer
 
 Our development team exclusively runs on end-to-end javascript for all of our projects. Our preferred stack is a MongoDB with a NodeJS server running ExpressJS middleware and a React/Redux web frontend. The server is written to deliver RESTful CRUD APIs for each resource. We usually handle styling with Sass. 
 
@@ -16,7 +16,7 @@ The fake project, TechyTodos, is a simple todo list application. TechTodos organ
 We created a public Github repository with the TechyTodos project started in our typical stack. You can find it here: [https://github.com/You-are-techY/techyTodos](https://github.com/You-are-techY/techyTodos). It should have everything you need get started.  
 
 The TechyTodos project comes out of the box with two default users: 
-- jane.doe@youaretechy.com pswd: **techy** _ -- NOTE: Jane has "admin" privileges_
+- jane.doe@youaretechy.com pswd: **techy** -- _NOTE: Jane has "admin" privileges_
 - erika.smith@youaretechy.com pswd: **techy** 
 
 Your assignment is to add threaded comments (in database as `comments`) to each todo list.  The comments/notes should display the author, the content and the created date in a readable format. 

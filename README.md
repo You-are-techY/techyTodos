@@ -1,5 +1,7 @@
-You are techY Jr. Full Stack Javascript Developer Code Challenge
+You are techY Code Challenge
 ======
+## Jr. Full Stack Javascript Developer
+
 Our development team exclusively runs on end-to-end javascript for all of our projects. Our preferred stack is a MongoDB with a NodeJS server running ExpressJS middleware and a React/Redux web frontend. The server is written to deliver RESTful CRUD APIs for each resource. We usually handle styling with Sass. 
 
 This code challenge is intended to make you familiar with our typical code base and our coding style while also allowing us to asses your style and general programming level.
@@ -8,7 +10,7 @@ This is a feeling out process for both sides and is intended to take a few hours
 
 
 ## The Challenge -- TechyTodos 
-****  
+
 The fake project, TechyTodos, is a simple todo list application. TechTodos organizes tasks into separate lists. The application is login-gated and has two levels of permissions: "admin" and "not-admin". 
 
 We created a public Github repository with the TechyTodos project started in our typical stack. You can find it here: [https://github.com/You-are-techY/techyTodos](https://github.com/You-are-techY/techyTodos). It should have everything you need get started.  
@@ -21,11 +23,11 @@ Your assignment is to add threaded comments (in database as `comments`) to each 
 
 
 ### Bonus points
-****  
 Bonus points for also adding threaded comments to each task.  
 
-## License
 ****
+
+## License
 
 This application uses the framework stack-as-a-service, Yote. All components are released individually under various open source licenses.  Please refer to their documentation for specific licenses.
 

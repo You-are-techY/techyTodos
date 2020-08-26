@@ -1,112 +1,32 @@
-![Howler Logo](https://s3.amazonaws.com/fugitive-labs/yote/Howler-02.png)
-
-Welcome to Yote!
+You are techY Jr. Full Stack Javascript Developer Code Challenge
 ======
+Our development team exclusively runs on end-to-end javascript for all of our projects. Our preferred stack is a MongoDB with a NodeJS server running ExpressJS middleware and a React/Redux web frontend. The server is written to deliver RESTful CRUD APIs for each resource. We usually handle styling with Sass. 
 
-Yote is the best super-stack solution out there for any data-driven application.  
+This code challenge is intended to make you familiar with our typical code base and our coding style while also allowing us to asses your style and general programming level.
 
-```
-$ (sudo) npm install -g yote
-```
-
+This is a feeling out process for both sides and is intended to take a few hours at most.  If you have any questions, please do not hesitate to ask. We'd rather point you in the right direction than have you be stumped for too long.
 
 
-## The Super Stack
+## The Challenge -- TechyTodos 
 ****  
+The fake project, TechyTodos, is a simple todo list application. TechTodos organizes tasks into separate lists. The application is login-gated and has two levels of permissions: "admin" and "not-admin". 
 
-> **WTH is a super-stack solution?**  Glad you asked.  A 'super-stack' is a made up term for a solution that provides a web application, native mobile apps, and api services out of the box.
+We created a public Github repository with the TechyTodos project started in our typical stack. You can find it here: [https://github.com/You-are-techY/techyTodos](https://github.com/You-are-techY/techyTodos). It should have everything you need get started.  
 
-Yote should always be the most comprehensive and flexible stack available. Right now that stack looks like this:
+The TechyTodos project comes out of the box with two default users: 
+- jane.doe@youaretechy.com pswd: **techy** _ -- NOTE: Jane has "admin" privileges_
+- erika.smith@youaretechy.com pswd: **techy** 
 
-- **Database**
-  * [Mongo](http://www.mongodb.org/)
-  * [Mongoose](http://mongoosejs.com/)
-- **Server/API**
-  * [Node](https://nodejs.org/)
-  * [Express](http://expressjs.com/)
-  * [Passport](http://passportjs.org/)
-  * [Docker](https://www.docker.com/)
-- **Client**
-  * [React](https://reactjs.com/)
-  * [React-Router](https://reacttraining.com/react-router/)
-  * [Redux](https://redux.js.org/)
-- **Mobile**
-  * [React Native](http://www.reactnative.com/)
-  * [Redux again](https://redux.js.org/)
-
-We're not married to it, however. Yote originally used AngularJS as the client. As our average project complexity grew, we looked for a more performant solution and found it in React/Flux. Then we discovered Redux (which is awesome)... and so on.
-
-If at some point in the future Vue.js or some other new fangled thing proves itself to be better in the wild, we reserve the right to switch things around.  
-
-> We'll do our best to support older versions through the CLI, but ultimately Yote is forward-looking in nature
+Your assignment is to add threaded comments (in database as `comments`) to each todo list.  The comments/notes should display the author, the content and the created date in a readable format. 
 
 
-
-## Philosophy
-****
-
-Yote itself is not a framework. It's not even really a library. Our idea is to simply take the best practices of the best frameworks and services available and package them up together in one place. Yote may change the nuts and bolts from time to time but the general philosophy will remain the same: Yote will always provide client-agnostic services and server-agnostic clients that are **FLEXIBLE**, **EXTENDABLE**, and **PERFORMANT** out of the box.  The overall goal is to help developers roll out production ready super-stack solutions as quickly and painlessly as possible.  
-
-
-
-
-## Prerequisites
-****
-
-We assume at least intermediate-level knowledge of Javascript. For the server you'll need to [MondoDB](https://docs.mongodb.com/master/tutorial/install-mongodb-on-os-x/?_ga=1.204328082.326616756.1489430903) installed and running, and [NodeJS >= v8.9.0](https://nodejs.org/en/). For the web client and mobile, it's best to have at least a basic understanding of [ReactJS](https://reactjs.com/) and [Redux](https://redux.js.org/).  
-> Redux can be a little tricky to wrap your brain around &mdash; particularly the `reducer` mapping. If you want to simply trust us that it works, you can just follow the patterns and you should pick it up eventually.  
-
-
-## Basic Usage
-****
-
-> NOTE: Yote CLI is in active development.  Note all commands may be ready.  Please see
-  ```
-  $ yote -h
-  ```
-  for a full list of commands.
-
-1. Install the Yote CLI
-    ```
-    $ (sudo) npm install -g yote
-    ```
-1. Initialize your project
-    ```
-    $ yote init MyApp
-    # ... this may take a minute
-    ```
-1. Change directory to `MyApp/server` and start the web server
-    ```
-    $ cd MyApp/server
-    $ nodemon
-    # NOTE: yote run-server coming soon...
-    ```    
-    The Yote server is now listening at `http://localhost:3030` and watching for changes.   
-1. In a new terminal, change directory to `MyApp/client` and start the client
-    ```
-    $ cd MyApp/client
-    $ npm run watch
-    # NOTE: yote run-client coming soon...
-    ```
-    This runs the Yote client in watch mode to look for and recompile changes to the `bundle.js`
-1. Using a browser, go to `http://localhost:3030` and you'll see "Welcome to Yote!"
-
-
-## Documentation
-****
-
-See the full docs at [fugitivelabs.github.io/yote/](https://fugitivelabs.github.io/yote/)
-
-
-## Contributing
-****
-
-Yote was initially built by Fugitive Labs for Fugitive Labs. We simply wanted a tool to improve our work. But we think other folks can find it useful too.  We encourage you to contribute. Improvements in mind, please feel free to open a pull request.
-
+### Bonus points
+****  
+Bonus points for also adding threaded comments to each task.  
 
 ## License
 ****
 
-All super-stack components are released individually under various open source licenses.  Please refer to their documentation for specific licenses.
+This application uses the framework stack-as-a-service, Yote. All components are released individually under various open source licenses.  Please refer to their documentation for specific licenses.
 
 Yote itself is released under the [MIT License](http://www.opensource.org/licenses/MIT).

@@ -17,9 +17,9 @@ const prodUrl = "localhost:3030"; // this should match your production instance
 const stagingUrl = "localhost:3030"; // this should match your
 
 // NOTE: this is the name of your Mongo database.  It should ideally match the project name.
-const devDbName = "yote"; //note: removed the capital S
-const stagingDbName = "yote-staging";
-const productionDbName = "yote";
+const devDbName = "techyTodos"; //note: removed the capital S
+const stagingDbName = "techyTodos-staging";
+const productionDbName = "techyTodos";
 
 // option to set database location manually via environment variables in Docker
 const remoteDb = process.env.REMOTE_DB ? process.env.REMOTE_DB : false;

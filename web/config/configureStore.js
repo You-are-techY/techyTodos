@@ -9,7 +9,7 @@ import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk'
 // import { browserHistory } from 'react-router';
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-import createHistory from 'history/createBrowserHistory';
+import { createBrowserHistory as createHistory } from 'history';
 import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux';
 
 // import main application reducers

@@ -21,6 +21,8 @@ The TechyTodos project comes out of the box with two default users:
 
 Your assignment is to add threaded comments (in database as `comments`) to each todo list.  The comments/notes should display the author, the content and the created date in a readable format. 
 
+When you're done, open up a pull request into this repo. Good luck!!
+
 
 ### Bonus points
 Bonus points for also adding threaded comments to each task.  
